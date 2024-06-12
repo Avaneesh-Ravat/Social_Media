@@ -1,0 +1,26 @@
+form{
+    width: 85%;
+    padding: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #9DA993;
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+input, textarea{
+    width: 60%;
+    border: 2px solid black;
+    padding: 2px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+button{
+    width: 80px;
+    font-weight: 600;
+    padding: 4px;
+    background-color: #a881af;
+}
+
