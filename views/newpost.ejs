@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new post</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/styleNewPost.css">
+</head>
+<body>
+    <div class="box">
+        <div class="nav">
+            <div class="logo-box">
+                <img src="/images/logogyaan.png" alt="no-image" class="logo">
+                <h2>Gyaan Source</h2>
+            </div>
+        </div>
+        <form method="post" action="/posts">
+            <p>Enter username:</p>
+            <input type="text" name="username" placeholder="Enter User Name">
+            <br>
+            <p>Enter caption:</p>
+            <textarea rows="3" placeholder="Enter Caption" name="content"></textarea>
+            <br>
+            <p>Enter Image link:</p>
+            <textarea rows="3" placeholder="Enter Image link" name="image"></textarea>
+            <br>
+            <p>Enter information in detail:</p>
+            <textarea rows="6" placeholder="Detail information" name="information"></textarea>
+            <br>
+            <button>Post</button>
+        </form>
+    </div>
+</body>
+</html>
